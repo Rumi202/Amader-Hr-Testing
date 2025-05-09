@@ -1,0 +1,96 @@
+# Ignore compiled Python bytecode files
+*.pyc
+__pycache__/
+*$py.class
+
+# Ignore editor bomb files
+**/.DS_Store
+**/.idea/
+**/.vscode/
+
+# Ignore virtual environment directories
+.venv/
+venv/
+env/
+ENV/
+vEnv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore testing and coverage
+.tox/
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore OS-specific files
+*.orig
+*.rej
+*.swp
+*.swo
+
+# Ignore environment files
+.env
+.flaskenv
+
+# Ignore secrets and sensitive files (add specific files as needed)
+secrets.ini
+*.key
+*.pem
+*.p12
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore celerybeat-schedule file
+celerybeat-schedule
+
+# Ignore sass cache products
+.sass-cache/
+
+# Ignore django-debug-toolbar
+.debugbar/
+
+# Ignore dependency caching
+poetry.lock
+# Comment out the line below if you want to track poetry.lock
+# poetry.lock
+
+# Ignore yarn files if using yarn for frontend assets
+yarn-debug.log
+yarn-error.log
+
+# Ignore specific application logs
+*.log
+
+# Ignore build artifacts
+*.mo
+
+# Ignore airflow dags compiled files
+dags/dags.json
